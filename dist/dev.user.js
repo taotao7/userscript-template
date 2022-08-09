@@ -1,13 +1,12 @@
 // ==UserScript==
-// @name        rollup-userscript-template [dev]
-// @description Bundle typescript, react and JSX/TSX script files into a single userscript file with rollup
-// @namespace   github.com/cvzi
-// @require     https://unpkg.com/react@17/umd/react.development.js
-// @require     https://unpkg.com/react-dom@17/umd/react-dom.development.js
-// @include     https://github.com/*
-// @version     1.2.2
-// @homepage    https://github.com/cvzi/rollup-userscript-template
-// @author      cuzi
+// @name        aone-helper [dev]
+// @description a aone helper
+// @namespace   github.com/taotao7
+// @match       https://www.google.com.hk/*
+// @match       https://aone.alibaba-inc.com/*
+// @version     1.2.3
+// @homepage    https://github.com/taotao7/Aone-Helper
+// @author      taotao7
 // @license     MIT
 // @grant       GM.getValue
 // @grant       GM.xmlHttpRequest
