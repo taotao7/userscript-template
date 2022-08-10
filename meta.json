@@ -1,11 +1,24 @@
 {
   "namespace": "github.com/taotao7",
   "copyright": "2020, cuzi (https://openuserjs.org/users/cuzi)",
+  "require": [
+    "http://libs.baidu.com/jquery/1.8.3/jquery.min.js",
+    "https://cdn.bootcdn.net/ajax/libs/layer/3.1.1/layer.js"
+  ],
+  "resource": [
+    "http://cdn.bootcdn.net/ajax/libs/layer/3.1.1/theme/default/layer.css"
+  ],
   "match": [
     "https://www.google.com.hk/*",
     "https://aone.alibaba-inc.com/*"
   ],
   "grant": [
-    "GM.getValue"
+    "GM_log",
+    "GM_listValues",
+    "GM_getValue",
+    "Gm_setValue",
+    "GM_addStyle",
+    "GM_getResourceText",
+    "unsafeWindow"
   ]
 }

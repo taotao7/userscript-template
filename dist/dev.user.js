@@ -2,15 +2,25 @@
 // @name        aone-helper [dev]
 // @description a aone helper
 // @namespace   github.com/taotao7
+// @require     http://libs.baidu.com/jquery/1.8.3/jquery.min.js
+// @require     https://cdn.bootcdn.net/ajax/libs/layer/3.1.1/layer.js
+// @resource    0 http://cdn.bootcdn.net/ajax/libs/layer/3.1.1/theme/default/layer.css
 // @match       https://www.google.com.hk/*
 // @match       https://aone.alibaba-inc.com/*
-// @version     1.2.3
+// @version     0.0.1
 // @homepage    https://github.com/taotao7/Aone-Helper
 // @author      taotao7
 // @license     MIT
-// @grant       GM.getValue
+// @grant       GM_log
+// @grant       GM_listValues
+// @grant       GM_getValue
+// @grant       Gm_setValue
+// @grant       GM_addStyle
+// @grant       GM_getResourceText
+// @grant       unsafeWindow
 // @grant       GM.xmlHttpRequest
 // @grant       GM.setValue
+// @grant       GM.getValue
 // ==/UserScript==
 /*  globals GM */
 
